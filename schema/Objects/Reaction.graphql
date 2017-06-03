@@ -1,0 +1,4 @@
+type Reaction implements Object {
+    data: String! @constraints(maxLength:140, minLength:1) 
+    // ..: Emre @edge
+}

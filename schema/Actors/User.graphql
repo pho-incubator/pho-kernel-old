@@ -1,0 +1,3 @@
+type User @conf(extends: "Anonymous") {
+    username: String! @props(maxLength: 20, minLength: 3, alnum, index: unique)
+}
